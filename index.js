@@ -10,7 +10,7 @@ document.addEventListener("keydown", function (e) {
     }
 });
 
-//A Function moves theDODGER to the Left:
+//moving theDODGER to the Left
 function moveDodgerLeft () {
 
     const leftNumbers = dodger.style.left.replace("px", "");
@@ -21,7 +21,7 @@ function moveDodgerLeft () {
     }
 }
 
-//A Function moves theDODGER to the Right:
+//moving theDODGER to the Right
 function moveDodgerRight () {
     
     const rightNumbers = dodger.style.left.replace("px", "");
